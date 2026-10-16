@@ -1,0 +1,19 @@
+name: fsgbsvm
+
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - pip:
+    - cvxpy
+    - ucimlrepo
+    - tqdm
+    - clarabel
+    - ecos
+    - mosek
